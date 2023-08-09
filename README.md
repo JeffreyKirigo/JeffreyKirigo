@@ -1,5 +1,4 @@
 <h2 align="center">
-  <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=JeffreyKirigo" alt="JeffreyKirigo" /></a> </p>
   Hello there, I'm <em>Jeffrey</em> 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h2>
@@ -12,6 +11,10 @@
   </a>
   </div>
   
+</div>
+<div>
+    <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=JeffreyKirigo" alt="JeffreyKirigo" /></a> </p>
+
 </div>
 <h2 align="center">
   Languages and tools: 
