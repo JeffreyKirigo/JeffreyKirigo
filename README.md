@@ -1,5 +1,5 @@
 <h2 align="center">
-  Hello there, I'm <em color="green">Jeffrey</em> 
+  Hello there, I'm <i>Jeffrey</i> 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h2>
 <div id="header" align="center">
