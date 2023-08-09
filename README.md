@@ -13,7 +13,7 @@
   
 </div>
 <div>
-    <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=JeffreyKirigo" alt="JeffreyKirigo" /></a> </p>
+    <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=JeffreyKirigo&theme=onedark" alt="JeffreyKirigo" /></a> </p>
 
 </div>
 <h2 align="center">
