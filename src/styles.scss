@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  // Balanced Professional Theme - Blue-Slate Fusion
+  --bg-primary: #000000;          // Pure black
+  --bg-secondary: #0a0a0a;        // Subtle dark
+  --bg-tertiary: #161616;         // Card backgrounds
+  --bg-terminal: #0a0a0a;         // Terminal background
+  --bg-terminal-body: #000000;    // Terminal body
+
+  // Primary accent - Muted Blue-Slate (perfect balance: tech + minimal)
+  --accent-primary: #7dd3fc;      // Soft sky blue - distinctive yet refined
+  --accent-primary-muted: #60a5fa; // Medium blue - secondary interactions
+  --accent-primary-subtle: #3b82f6; // Deeper blue - borders and backgrounds
+
+  // Semantic colors
+  --accent-success: #10b981;      // Clean green - status indicators only
+  --accent-error: #ef4444;        // Clean red - errors only
+
+  // Text hierarchy
+  --text-primary: #f8fafc;        // Soft white for headings
+  --text-secondary: #94a3b8;      // Cool slate for body text
+  --text-tertiary: #64748b;       // Muted slate for less important text
+  --text-accent: #7dd3fc;         // Soft blue for highlighted text
+
+  // UI elements - Balanced subtlety
+  --border-color: rgba(125, 211, 252, 0.12);
+  --border-color-hover: rgba(125, 211, 252, 0.28);
+  --border-color-focus: rgba(125, 211, 252, 0.45);
+
+  // Shadows - Refined balance
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 3px 5px -1px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 8px 12px -2px rgba(0, 0, 0, 0.45);
+  --shadow-accent: 0 0 18px rgba(125, 211, 252, 0.12);
+
+  // Gradients - Soft and sophisticated
+  --gradient-primary: linear-gradient(135deg, #7dd3fc 0%, #60a5fa 100%);
+  --gradient-subtle: linear-gradient(135deg, rgba(125, 211, 252, 0.06) 0%, rgba(125, 211, 252, 0.02) 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gradient-primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
+
+/* Modern terminal font */
+code, pre, .terminal-font {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}

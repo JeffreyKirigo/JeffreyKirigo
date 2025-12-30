@@ -1,0 +1,36 @@
+<div class="terminal-container" (click)="focusInput()">
+  <div class="terminal-header">
+    <div class="terminal-buttons">
+      <span class="terminal-button close"></span>
+      <span class="terminal-button minimize"></span>
+      <span class="terminal-button maximize"></span>
+    </div>
+    <div class="terminal-title">jeffrey@portfolio - Terminal</div>
+  </div>
+
+  <div class="terminal-body" #terminalOutput>
+    <pre class="welcome-message">{{ welcomeMessage }}</pre>
+
+    <div *ngFor="let cmd of commandHistory" class="command-block">
+      <div class="command-line">
+        <span class="prompt">{{ getPrompt() }}</span>
+        <span class="command-text">{{ cmd.command }}</span>
+      </div>
+      <pre class="output" *ngIf="cmd.output">{{ cmd.output }}</pre>
+    </div>
+
+    <div class="input-line">
+      <span class="prompt">{{ getPrompt() }}</span>
+      <input
+        #commandInput
+        type="text"
+        class="command-input"
+        [(ngModel)]="currentInput"
+        (keydown.enter)="executeCommand()"
+        (keydown)="handleKeyDown($event)"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </div>
+  </div>
+</div>
