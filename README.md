@@ -33,9 +33,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-line.svg" title="C" alt="C" width="35" height="35"/>&nbsp;
 </div>
 
-
-
-
 # Jeffrey Kirigo - Terminal Portfolio
 
 A stunning, modern terminal-themed portfolio website built with Angular and TypeScript. This portfolio combines the classic terminal aesthetic with contemporary web design, featuring glassmorphism effects, smooth animations, and an intuitive user interface.
